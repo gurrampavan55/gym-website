@@ -7,20 +7,70 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Navbar -->
   <nav>
     <h1>FitZone</h1>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     <ul>
-      <li><a href="#" data-page="home">Home</a></li>
-      <li><a href="#" data-page="services">Services</a></li>
-      <li><a href="#" data-page="plans">Plans</a></li>
-      <li><a href="#" data-page="contact">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#plans">Plans</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <main id="content">
-    <!-- Dynamic Content -->
-  </main>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to FitZone Gym</h2>
+      <p>Train with the best equipment, trainers & environment.</p>
+      <a href="#plans" class="btn">Join Now</a>
+    </div>
+  </section>
 
+  <!-- Services Section -->
+  <section id="services" class="fade-section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Training">
+        <h3>Personal Training</h3>
+        <p>Certified coaches for personalized workout plans.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="Classes">
+        <h3>Group Classes</h3>
+        <p>Fun, energetic sessions like Zumba, HIIT, and Yoga.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="Nutrition">
+        <h3>Nutrition Guidance</h3>
+        <p>Custom diet plans for your body type & goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plans Section -->
+  <section id="plans" class="fade-section">
+    <h2>Membership Plans</h2>
+    <div class="cards">
+      <div class="card"><h3>Basic</h3><p>₹999/month - Gym Access</p></div>
+      <div class="card"><h3>Premium</h3><p>₹1999/month - Gym + Classes</p></div>
+      <div class="card"><h3>Elite</h3><p>₹2999/month - All Access + Nutrition + Coach</p></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-section">
+    <h2>Contact Us</h2>
+    <p>Email: contact@fitzone.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: MG Road, Hyderabad, India</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2828278089!2d78.4867!3d17.3850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb975bf4b3a3f5%3A0x3d4e6bdf7b17db73!2sMG%20Road!5e0!3m2!1sen!2sin!4v1675272948345!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 FitZone Gym. All Rights Reserved.</p>
   </footer>
