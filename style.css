@@ -3,6 +3,11 @@
 body { background: #0a0a0a; color: white; }
 
 /* Navbar */
+/* ...existing code... */
+
+
+
+/* ...existing code... */
 nav {
   display: flex;
   justify-content: space-between;
