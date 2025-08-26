@@ -12,3 +12,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, options);
 sections.forEach(section => observer.observe(section));
+// Close mobile menu when a link is clicked
+document.querySelectorAll("nav ul li a").forEach(link => {
+  link.addEventListener("click", () => {
+    // Only close if menu is active (mobile)
+    if (nav.classList.contains("active")) {
+      nav.classList.remove("active");
+    }
+  });
+});
+
